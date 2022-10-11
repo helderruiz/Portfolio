@@ -1,0 +1,21 @@
+@import url("cabecalho.css");
+@import url("sobre.css");
+@import url("projetos.css");
+@import url("contato.css");
+
+
+:root {
+    --cor-bg: #1f1f38;
+    --cor-bg-secundaria: #2c2c6c;
+    --cor-azul-claro: #4db5ff;
+    --cor-branco: #fff;
+    --cor-cinza: #a5a5af;
+}
+
+body {
+    background: var(--cor-bg);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+

@@ -1,0 +1,30 @@
+.sobre {
+    background: var(--cor-bg-secundaria);
+    border-radius: 10px;
+    color: var(--cor-branco);
+    margin: 0 1rem 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sobre__titulo {
+    color: var(--cor-azul-claro);
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.sobre__paragrafo {
+    line-height: 1.6rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.sobre__contato {
+    background: var(--cor-azul-claro);
+    border-radius: 8px;
+    color: var(--cor-bg-secundaria);
+    font-weight: 500;
+    text-decoration: none;
+    padding: .4rem 1.5rem;
+}

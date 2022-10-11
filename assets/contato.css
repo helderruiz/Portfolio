@@ -1,0 +1,49 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.contato__titulo {
+    color: var(--cor-azul-claro);
+    font-size: 1.6rem;
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+.contato__dados {
+    align-items: center;
+    background: var(--cor-bg-secundaria);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.contato__icone {
+    color: var(--cor-azul-claro);
+    margin: 1rem 0;
+}
+
+.contato__titulo-rede {
+    color: var(--cor-branco);
+    margin-bottom: .7rem;
+}
+
+.contato__nome {
+    color: var(--cor-branco);
+    font-size: .8rem;
+    margin-bottom: .7rem;
+}
+
+.contato__botao {
+    background: var(--cor-azul-claro);
+    border-radius: 5px;
+    color: var(--cor-bg-secundaria);
+    font-size: .7rem;
+    text-decoration: none;
+    padding: .8rem .5rem;
+    margin-bottom: 1rem;
+
+}

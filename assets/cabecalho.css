@@ -1,0 +1,42 @@
+.cabecalho {
+    text-align: center;
+    padding: 2rem;
+}
+
+.cabecalho__container {
+    align-items: center;
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-branco);
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.cabecalho__titulo-secundario {
+    color: var(--cor-cinza);
+}
+
+.cabecalho__cv {
+    color: var(--cor-azul-claro);
+    border: 2px solid var(--cor-azul-claro);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+}
+
+.cabelho__foto {
+    border-radius:50%;
+    border: 2px solid var(--cor-azul-claro);
+    margin-top: 1.5rem;
+    height: 250px;
+    width: 80%;
+}
+
