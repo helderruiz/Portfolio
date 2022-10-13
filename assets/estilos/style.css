@@ -1,7 +1,9 @@
+@import url("menu.css");
 @import url("cabecalho.css");
 @import url("sobre.css");
 @import url("projetos.css");
 @import url("contato.css");
+@import url("rodape.css");
 
 
 :root {

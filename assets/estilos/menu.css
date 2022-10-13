@@ -1,0 +1,33 @@
+.navbar-toggler {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    padding: .20rem;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: var(--cor-azul-claro);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-around;
+        margin-top: 1rem ;
+    }
+
+    .navbar-nav {
+        column-gap: 3rem;
+    }
+
+    .nav-link {
+        font-size: 1.6rem;
+    }
+
+    .nav-link:hover {
+        border-bottom: 1px solid var(--cor-azul-claro);
+    }
+}
