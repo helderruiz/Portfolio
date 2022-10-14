@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/estilos/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/estilos/style.css">
 </head>
 
@@ -26,10 +26,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">Sobre</a>
-                        <a class="nav-link" href="#">Projetos</a>
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contatos</a>
+                        <a class="nav-link" href="#quem-sou">Quem Sou</a>
+                        <a class="nav-link" href="#proj">Projetos</a>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
                     </div>
                 </div>
             </div>
@@ -37,16 +36,16 @@
 
         <header class="cabecalho">
             <div class="cabecalho__container">
-                <h1 class="cabecalho__titulo">Helder Ruiz</h1>
-                <h4 class="cabecalho__titulo-secundario">Desenvolvedor Front-End</h4>
-                <a href="" class="cabecalho__cv">Download CV</a>
+                <h1 class="cabecalho__titulo animate__animated animate__flipInX">Helder Ruiz</h1>
+                <h4 class="cabecalho__titulo-secundario animate__animated animate__lightSpeedInLeft">Desenvolvedor Front-End</h4>
+                <a href="assets/pdf/cv-helder.pdf" download="cv-helder.pdf" type="application/pdf" class="cabecalho__cv">Download CV</a>
             </div>
             <img src="assets/img/helder.png" alt="Foto de Perfil" class="cabelho__foto">
         </header>
 
         <section class="sobre">
             <span>
-                <h2 class="sobre__titulo">Quem Sou</h2>
+                <h2 id="quem-sou" class="sobre__titulo">Quem Sou</h2>
                 <p class="sobre__paragrafo">
                     Sou Desenvolvedor Front-end, focado no desenvolvimento Web utilizando as linguagens
                     HTML5, CSS3, JavaScript e Bootstrap.
@@ -56,21 +55,21 @@
                 </p>
             </span>
             <nav class="sobre__desktop">
-                <a href=""><i class="bi bi-linkedin icone icone__desktop-linkedin"></i></a>
-                <a href=""><i class="bi bi-github icone icone__desktop-git"></i></a>
+                <a href="https://www.linkedin.com/in/helder-ruiz-a9649724b/" target="_blank"><i class="bi bi-linkedin icone icone__desktop-linkedin"></i></a>
+                <a href="https://github.com/helderruiz" target="_blank"><i class="bi bi-github icone icone__desktop-git"></i></a>
             </nav>
 
         </section>
-        <section class="projetos">
+        <section id="proj" class="projetos">
             <h3 class="projetos__titulo">Projetos</h3>
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/cordel.png" alt="imagem do projeto" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">Cordel Moderno</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/projeto-site-cordel" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/projeto-site-cordel/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -78,11 +77,11 @@
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/fruta-fruto.png" alt="imagem do projeto" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">Fruta & Fruto</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/fruta-e-fruto" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/fruta-e-fruto/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -90,11 +89,11 @@
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/skate.png" alt="imagem do projeto" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">Comunidade Skate</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/comunidade-skate" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/comunidade-skate/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -102,11 +101,11 @@
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/7DaysOfCode.png" alt="imagem do projeto" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">7DaysOfCode</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/7DaysOfCode" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/7DaysOfCode/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -114,11 +113,11 @@
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/agencia.png" alt="" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">Agência Fake</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/projeto-agencia-fake" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/projeto-agencia-fake/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -126,11 +125,11 @@
             <div class="card">
                 <div class="linha">
                     <article class="projetos__dados">
-                        <img src="assets/img/card-image.svg" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Em Breve</h3>
+                        <img src="assets/img/barbearia.png" alt="" class="projetos__imagem">
+                        <h3 class="projetos__titulo-nome">Barbearia</h3>
                         <div class="projetos__botoes">
-                            <a href="" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="" class="projetos__botao-direito">Deploy</a>
+                            <a href="https://github.com/helderruiz/alura-curso-front" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
+                            <a href="https://helderruiz.github.io/alura-curso-front/" target="_blank" class="projetos__botao-direito">Deploy</a>
                         </div>
                     </article>
                 </div>
@@ -140,9 +139,9 @@
 
     <footer class="rodape">
         <div class="rodape__link">
-            <a href=""><i class="bi bi-linkedin icone"></i></a>
-            <a href=""><i class="bi bi-whatsapp icone"></i></a>
-            <a href=""><i class="bi bi-github icone"></i></a>
+            <a href="https://www.linkedin.com/in/helder-ruiz-a9649724b/" target="_blank"><i class="bi bi-linkedin icone"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5511989566433" target="_blank"><i class="bi bi-whatsapp icone"></i></a>
+            <a href="https://github.com/helderruiz" target="_blank"><i class="bi bi-github icone"></i></a>
         </div>
         <h3 class="rodape__copyright"><i class="bi bi-c-circle"></i> Todos os direitos reservados</h3>
     </footer>
@@ -158,6 +157,7 @@
                 <main class="modal-body">
                     <form action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
                         <div class="form-group">
+                            <input type="hidden" name="_next" value="https://helderruiz.github.io/Portfolio/">
                             <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
                             <input type="text" name="name" class="form-control input__nome" id="formGroupExampleInput"
                                 placeholder="Insira seu nome completo" required>
