@@ -156,27 +156,29 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </header>
                 <main class="modal-body">
-                    <form  action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
+                    <form action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
+                        <input type="hidden" name="_next" value="https://sucesso.html">
                         <div class="form-group">
-                          <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
-                          <input type="text" class="form-control input__nome" id="formGroupExampleInput" placeholder="Insira seu nome completo" required>
+                            <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
+                            <input type="text" name="name" class="form-control input__nome" id="formGroupExampleInput"
+                                placeholder="Insira seu nome completo" required>
                         </div>
-            
+
                         <div class="form-group">
-                          <label class="modal__label" for="exampleFormControlInput1">Endereço de e-mail</label>
-                          <input type="email" class="form-control input__email" id="exampleFormControlInput1" required placeholder="nome@exemplo.com">
+                            <label class="modal__label" for="exampleFormControlInput1">Endereço de e-mail</label>
+                            <input type="email" name="email" class="form-control input__email"
+                                id="exampleFormControlInput1" required placeholder="nome@exemplo.com">
                         </div>
-                        
+
                         <div class="form-group">
-                          <label class="modal__label" for="exampleFormControlTextarea1">Deixe sua menssagem</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="Insira aqui sua menssagem" rows="3"></textarea>
+                            <label class="modal__label" for="exampleFormControlTextarea1">Deixe sua menssagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required
+                                placeholder="Insira aqui sua menssagem" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary btn_enviar">Enviar</button>
+                        <button type="button" class="btn btn-secondary btn__fechar"
+                            data-bs-dismiss="modal">Fechar</button>
                     </form>
-                </main>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
             </dialog>
         </div>
     </div>

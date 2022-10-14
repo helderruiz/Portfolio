@@ -14,3 +14,8 @@
     font-size: 1rem;
     font-weight: 500;
 }
+
+.btn_enviar, .btn__fechar {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
