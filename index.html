@@ -19,8 +19,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -28,7 +29,7 @@
                         <a class="nav-link" href="#">Home</a>
                         <a class="nav-link" href="#">Sobre</a>
                         <a class="nav-link" href="#">Projetos</a>
-                        <a class="nav-link" href="#">Contatos</a>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contatos</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,8 @@
                 <p class="sobre__paragrafo">
                     Sou Desenvolvedor Front-end, focado no desenvolvimento Web utilizando as linguagens
                     HTML5, CSS3, JavaScript e Bootstrap.
-                    Crio soluções de pronta aplicação no mercado, com foco na usabilidade, layout moderno, além de código limpo
+                    Crio soluções de pronta aplicação no mercado, com foco na usabilidade, layout moderno, além de
+                    código limpo
                     e eficiente.
                 </p>
             </span>
@@ -57,7 +59,7 @@
                 <a href=""><i class="bi bi-linkedin icone icone__desktop-linkedin"></i></a>
                 <a href=""><i class="bi bi-github icone icone__desktop-git"></i></a>
             </nav>
-            
+
         </section>
         <section class="projetos">
             <h3 class="projetos__titulo">Projetos</h3>
@@ -144,6 +146,40 @@
         </div>
         <h3 class="rodape__copyright"><i class="bi bi-c-circle"></i> Todos os direitos reservados</h3>
     </footer>
+
+    <!-- ######################################    Modal (botao de contato)   ################################### -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <dialog class="modal-content modal__caixa">
+                <header class="modal-header">
+                    <h5 class="modal-title fs-5 modal__label" id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+                <main class="modal-body">
+                    <form  action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
+                        <div class="form-group">
+                          <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
+                          <input type="text" class="form-control input__nome" id="formGroupExampleInput" placeholder="Insira seu nome completo" required>
+                        </div>
+            
+                        <div class="form-group">
+                          <label class="modal__label" for="exampleFormControlInput1">Endereço de e-mail</label>
+                          <input type="email" class="form-control input__email" id="exampleFormControlInput1" required placeholder="nome@exemplo.com">
+                        </div>
+                        
+                        <div class="form-group">
+                          <label class="modal__label" for="exampleFormControlTextarea1">Deixe sua menssagem</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="Insira aqui sua menssagem" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </main>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </dialog>
+        </div>
+    </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 

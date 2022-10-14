@@ -1,0 +1,16 @@
+.modal__caixa {
+    background: var(--cor-bg);
+}
+.input__nome {
+    margin-bottom: 1rem;
+}
+
+.input__email {
+    margin-bottom: 1rem;
+}
+
+.modal__label {
+    color: var(--cor-azul-claro);
+    font-size: 1rem;
+    font-weight: 500;
+}
