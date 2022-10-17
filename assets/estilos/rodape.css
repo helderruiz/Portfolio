@@ -2,6 +2,7 @@
     background: var(--cor-azul-claro);
     padding: 1rem;
     margin-top: 1.5rem;
+    position: relative;
 }
 
 .rodape__link {
@@ -18,4 +19,22 @@
 
 .rodape__copyright {
     text-align: center;
+}
+
+.rodape__home {
+    color: var(--cor-bg);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    animation: subir 2s alternate ease-in-out infinite;
+}
+
+@keyframes subir {
+0% {
+    transform: scale(.9);
+}
+100% {
+    transform: scale(1.2);
+}
 }
