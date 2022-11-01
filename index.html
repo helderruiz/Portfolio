@@ -22,7 +22,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span id="icon" class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -158,6 +158,7 @@
                 <main class="modal-body">
                     <form action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
                         <div class="form-group">
+                            <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_next" value="https://helderruiz.github.io/Portfolio/">
                             <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
                             <input type="text" name="name" class="form-control input__nome" id="formGroupExampleInput"
@@ -175,15 +176,17 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required
                                 placeholder="Insira aqui sua menssagem" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn_enviar">Enviar</button>
+                        <button id="form__botao-enviar" type="submit" class="btn btn-primary btn_enviar">Enviar</button>
                         <button type="button" class="btn btn-secondary btn__fechar"
                             data-bs-dismiss="modal">Fechar</button>
+                            <div id="enviado"></div>
                     </form>
             </dialog>
         </div>
     </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/contato.js"></script>
 
 </body>
 

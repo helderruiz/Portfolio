@@ -45,5 +45,10 @@
     text-decoration: none;
     padding: .8rem .5rem;
     margin-bottom: 1rem;
+}
 
+#enviado {
+    color: #009578;
+    font-weight: bold;
+    margin-top: 25px;
 }
