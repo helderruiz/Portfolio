@@ -6,184 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potfólio | Hélder</title>
-    <link rel="stylesheet" href="assets/estilos/bootstrap.min.css">
+    
     <link rel="stylesheet" href="assets/estilos/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/estilos/style.css">
 </head>
 
 <body>
-    <main>
-        <nav id="home" class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span id="icon" class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#quem-sou">Quem Sou</a>
-                        <a class="nav-link" href="#proj">Projetos</a>
-                        <a class="nav-link" href="Certificado Alura.html" target="_blank">Certificados</a>
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
 
-        <header class="cabecalho">
-            <div class="cabecalho__container">
-                <h1 class="cabecalho__titulo animate__animated animate__flipInX">Helder Ruiz</h1>
-                <h4 class="cabecalho__titulo-secundario animate__animated animate__lightSpeedInLeft">Desenvolvedor</h4>
-                <a href="assets/pdf/CV Helder-Ruiz-Marcelino-AT.pdf" download="cv-helder.pdf" type="application/pdf" class="cabecalho__cv">Download CV</a>
-            </div>
-            <img src="assets/img/helder.png" alt="Foto de Perfil" class="cabelho__foto">
-        </header>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"><img src="/assets/img/logo.png" alt="logo"></a>
+            </div><!--logo-->
 
-        <section class="sobre">
-            <span>
-                <h2 id="quem-sou" class="sobre__titulo">Quem Sou</h2>
-                <p class="sobre__paragrafo">
-                    Olá! Sou um entusiasta da tecnologia com paixão por transformar ideias inovadoras em soluções práticas. Com uma sólida formação em desenvolvimento de sistemas para internet, trago uma combinação única de habilidades técnicas e criatividade.
-                    Minha jornada profissional tem sido marcada por experiências desafiadoras, onde pude aprimorar minhas habilidades em linguagens de programação como HTML, CSS, JavaScript, e frameworks modernos. Tenho expertise em desenvolvimento front-end, garantindo interfaces intuitivas e agradáveis para os usuários. 
-                </p>
-            </span>
-            <nav class="sobre__desktop">
-                <a href="https://www.linkedin.com/in/helder-ruiz-a9649724b/" target="_blank"><i class="bi bi-linkedin icone icone__desktop-linkedin"></i></a>
-                <a href="https://github.com/helderruiz" target="_blank"><i class="bi bi-github icone icone__desktop-git"></i></a>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#"></a>Início</li>
+                    <li><a href="#"></a>Especialidades</li>
+                    <li><a href="#"></a>Sobre</li>
+                    <li><a href="#"></a>Projetos</li>
+                </ul>
             </nav>
 
-        </section>
-        <section id="proj" class="projetos">
-            <h3 class="projetos__titulo">Projetos</h3>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/cordel.png" alt="imagem do projeto" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Cordel Moderno</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/projeto-site-cordel" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/projeto-site-cordel/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/tabuada.png" alt="imagem do projeto" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Tabuada</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/Tabuada" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/Tabuada/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/jogo-da-memoria.png" alt="imagem do projeto" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Jogo da Memória</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/Jogo-da-memoria" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/Jogo-da-memoria/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/7DaysOfCode.png" alt="imagem do projeto" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">7DaysOfCode</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/7DaysOfCode" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/7DaysOfCode/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/agencia.png" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Agência Fake</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/projeto-agencia-fake" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/projeto-agencia-fake/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="card">
-                <div class="linha">
-                    <article class="projetos__dados">
-                        <img src="assets/img/barbearia.png" alt="" class="projetos__imagem">
-                        <h3 class="projetos__titulo-nome">Barbearia</h3>
-                        <div class="projetos__botoes">
-                            <a href="https://github.com/helderruiz/alura-curso-front" target="_blank" class="projetos__botao-esquerdo">GitHub</a>
-                            <a href="https://helderruiz.github.io/alura-curso-front/" target="_blank" class="projetos__botao-direito">Deploy</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-    </main>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+        </div><!--interface-->
+    </header>
 
-    <footer class="rodape">
-        <nav class="rodape__link">
-            <a href="https://www.linkedin.com/in/helder-ruiz-a9649724b/" target="_blank"><i class="bi bi-linkedin icone"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5511989566433" target="_blank"><i class="bi bi-whatsapp icone"></i></a>
-            <a href="https://github.com/helderruiz" target="_blank"><i class="bi bi-github icone"></i></a>
-        </nav>
-        <h3 class="rodape__copyright"><i class="bi bi-c-circle"></i> Todos os direitos reservados</h3>
-        <a href="#home" class="rodape__home"><i class="bi bi-arrow-up-circle-fill"></i></a>
-    </footer>
 
-    <!-- ######################################    Modal (botao de contato)   ################################### -->
-    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <dialog class="modal-content modal__caixa">
-                <header class="modal-header">
-                    <h5 class="modal-title fs-5 modal__label" id="exampleModalLabel">Contato</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </header>
-                <main class="modal-body">
-                    <form action="https://formsubmit.co/helderruiz14@gmail.com " method="POST">
-                        <div class="form-group">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://helderruiz.github.io/Portfolio/">
-                            <label class="modal__label" for="formGroupExampleInput">Nome Completo</label>
-                            <input type="text" name="name" class="form-control input__nome" id="formGroupExampleInput"
-                                placeholder="Insira seu nome completo" required>
-                        </div>
 
-                        <div class="form-group">
-                            <label class="modal__label" for="exampleFormControlInput1">Endereço de e-mail</label>
-                            <input type="email" name="email" class="form-control input__email"
-                                id="exampleFormControlInput1" required placeholder="nome@exemplo.com">
-                        </div>
-
-                        <div class="form-group">
-                            <label class="modal__label" for="exampleFormControlTextarea1">Deixe sua menssagem</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required
-                                placeholder="Insira aqui sua menssagem" rows="3"></textarea>
-                        </div>
-                        <button id="form__botao-enviar" type="submit" class="btn btn-primary btn_enviar">Enviar</button>
-                        <button type="button" class="btn btn-secondary btn__fechar"
-                            data-bs-dismiss="modal">Fechar</button>
-                        <div id="enviado"></div>
-                    </form>
-            </dialog>
-        </div>
-    </div>
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/contato.js"></script>
 
 </body>
