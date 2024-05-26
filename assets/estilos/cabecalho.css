@@ -26,6 +26,7 @@ header li:hover {
 li {
   display: inline-block;
   padding: 0 40px;
+  font-size: 20px;
 }
 
 .btn-contato button {
