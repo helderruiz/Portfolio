@@ -1,0 +1,51 @@
+.sobre {
+    padding: 80px 4%;
+}
+
+.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.img-sobre img {
+    width: 25rem;
+}
+
+.txt-sobre {
+    color: var(--cor-branco);
+}
+
+.txt-sobre h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.txt-sobre h2 span {
+    color: var(--cor-azul-claro);
+    display: block;
+}
+
+.txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-azul-claro);
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: .2s;
+}
+
+.btn-social button:hover {
+    box-shadow: 0px 0px 10px var(--cor-azul-claro);
+    transform: scale(1.05);
+}

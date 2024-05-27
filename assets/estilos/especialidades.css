@@ -11,13 +11,13 @@
     padding: 40px;
     margin-top: 45px;
     border-radius: 20px;
-    transition: .3s;
+    transition: .4s;
     
 }
 
 .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px var(--cor-branco);
+    box-shadow: 0 0 10px var(--cor-azul-claro);
 }
 
 .especialidades-box i {

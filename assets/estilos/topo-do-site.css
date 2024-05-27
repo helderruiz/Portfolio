@@ -23,6 +23,8 @@
 .topo-do-site .txt-topo-site p {
   color: var(--cor-branco);
   margin: 40px 0;
+  line-height: 1.3rem;
+  text-align: justify;
 }
 
 .img-topo-site img {
