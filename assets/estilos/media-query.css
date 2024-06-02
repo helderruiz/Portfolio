@@ -1,0 +1,65 @@
+@media screen and (max-width: 1020px) {
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .topo-do-site {
+    padding: 20px 8%;
+  }
+
+  .img-topo-site img {
+    width: 20rem;
+  }
+
+  .topo-do-site .flex {
+    gap: 40px;
+  }
+
+  /* ESPECIALIDADES */
+  .especialidades {
+    padding: 40px 8%;
+  }
+
+  .especialidades .flex {
+    gap: 10px;
+  }
+
+  /* SOBRE */
+  .sobre {
+    padding: 40px 8%;
+  }
+
+  .sobre .flex {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 60px;
+  }
+
+  .img-sobre img {
+    width: 20rem;
+  }
+
+  /* PROJETOS */
+  .portfolio {
+    padding: 80px 8%;
+  }
+
+  .img-port {
+    width: 100%;
+    /* max-width: 400px; */
+    margin: 0 auto;
+  }
+
+  .portfolio .flex {
+    gap: 40PX;
+  }
+}

@@ -12,13 +12,13 @@ header > .interface {
   justify-content: space-between;
 }
 
-header li {
+header .menu-desktop li {
   color: var(--cor-branco);
   display: inline-block;
   transition: 0.2s;
 }
 
-header li:hover {
+header .menu-desktop li:hover {
   color: var(--cor-azul-claro);
   transform: scale(1.1);
 }

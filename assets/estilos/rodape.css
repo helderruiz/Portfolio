@@ -1,0 +1,30 @@
+footer {
+    padding: 60px 4%;
+}
+
+footer img {
+    width: 10rem;
+}
+
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid var(--cor-azul-claro);
+}
+
+.line-footer p i {
+    color: var(--cor-azul-claro);
+    font-size: 22px;
+}
+
+.line-footer p a {
+    color: var(--cor-branco);
+    text-decoration: none;
+}

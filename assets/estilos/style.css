@@ -7,6 +7,9 @@
 @import url("contato.css");
 @import url("rodape.css");
 @import url("modal.css");
+@import url("media-query.css");
+@import url("menu-mobile.css");
+
 
 :root {
   --cor-bg: #23242b;

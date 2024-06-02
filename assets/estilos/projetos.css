@@ -1,0 +1,41 @@
+.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #4db5ff2e;
+}
+
+.portfolio .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 40px;
+
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    color: var(--cor-branco);
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600px;
+    background-color: #313131a8;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
