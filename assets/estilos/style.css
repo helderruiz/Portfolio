@@ -33,6 +33,7 @@ body {
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 h2.titulo {

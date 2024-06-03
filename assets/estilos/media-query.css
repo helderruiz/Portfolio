@@ -1,5 +1,5 @@
 @media screen and (max-width: 1020px) {
-  .menu-desktop,
+  .menu,
   .btn-contato {
     display: none;
   }
@@ -31,6 +31,7 @@
 
   .especialidades .flex {
     gap: 10px;
+    flex-direction: column;
   }
 
   /* SOBRE */
@@ -60,6 +61,14 @@
   }
 
   .portfolio .flex {
-    gap: 40PX;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  /* RODAPE */
+  footer .flex {
+    flex-direction: column;
   }
 }
+
+
