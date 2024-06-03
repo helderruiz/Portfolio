@@ -8,19 +8,19 @@
   gap: 90px;
 }
 
-.topo-do-site .txt-topo-site h1 {
+.txt-topo-site h1 {
   color: var(--cor-branco);
   font-size: 42px;
   font-weight: 500;
   line-height: 40px;
 }
 
-.topo-do-site .txt-topo-site h1 span {
+.txt-topo-site h1 span {
   color: var(--cor-azul-claro);
   font-size: 50px;
 }
 
-.topo-do-site .txt-topo-site p {
+.txt-topo-site p {
   color: var(--cor-branco);
   margin: 40px 0;
   line-height: 1.3rem;

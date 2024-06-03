@@ -43,11 +43,9 @@
 
   .btn-mobile {
     padding: 0.5rem 1rem;
-    font-size: 2.5rem;
     border: none;
     cursor: pointer;
     background: none;
-    color: var(--cor-azul-claro);
   }
   
 }

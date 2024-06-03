@@ -11,7 +11,8 @@
 .img-port {
     width: 360px;
     height: 460px;
-    background-color: aqua;
+    /* background-color: aqua; */
+    box-shadow: 0 0 10px var(--cor-azul-claro);
     cursor: pointer;
     border-radius: 40px;
 
