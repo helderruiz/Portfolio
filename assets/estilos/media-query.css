@@ -5,7 +5,7 @@
   }
 
   .topo-do-site {
-    padding: 40px 8%;
+    padding: 40px 5%;
   }
 
   .topo-do-site .flex {
@@ -34,7 +34,11 @@
 
   /* ESPECIALIDADES */
   .especialidades {
-    padding: 40px 8%;
+    padding: 40px 5%;
+  }
+
+  .especialidades-box {
+    padding: 15px;
   }
 
   .especialidades .titulo {
@@ -48,7 +52,7 @@
 
   /* SOBRE */
   .sobre {
-    padding: 40px 8%;
+    padding: 40px 5%;
   }
 
   .txt-sobre h2 {
@@ -67,7 +71,7 @@
 
   /* PROJETOS */
   .portfolio {
-    padding: 80px 8%;
+    padding: 80px 5%;
   }
 
   .portfolio .titulo {
