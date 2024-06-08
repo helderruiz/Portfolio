@@ -9,18 +9,19 @@
   width: 7rem;
 }
 
-.menu {
+.menu{
   display: flex;
   gap: 2rem;
   font-size: 18px;
 }
 
-.menu {
+.menu a{
   color: var(--cor-branco);
   cursor: pointer;
+  text-decoration: none;
 }
 
-.menu li:hover {
+.menu li a:hover {
   color: var(--cor-azul-claro);
 }
 
