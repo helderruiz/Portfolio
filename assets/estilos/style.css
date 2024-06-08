@@ -19,6 +19,10 @@
   --cor-cinza: #a5a5af;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--cor-bg);
   font-family: "Poppins", sans-serif;

@@ -6,8 +6,8 @@ btnMobile.addEventListener("click", () => {
   nav.classList.toggle("active");
   const active = nav.classList.contains("active");
   if (active) {
-    iamgemIcon.setAttribute('src', 'assets/img/sair-da-tela.png')
+    iamgemIcon.setAttribute('src', 'assets/img/close-button_icon.svg')
   }else{
-    iamgemIcon.setAttribute('src', 'assets/img/barra-de-menu.png')
+    iamgemIcon.setAttribute('src', 'assets/img/menu-button_icon.svg')
   }
 });

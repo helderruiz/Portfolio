@@ -4,6 +4,10 @@
     display: none;
   }
 
+  #contato-none {
+    display: block;
+}
+
   .topo-do-site {
     padding: 40px 5%;
   }
@@ -18,10 +22,6 @@
 
   .flex {
     flex-direction: column;
-  }
-
-  .topo-do-site {
-    padding: 20px 8%;
   }
 
   .img-topo-site img {

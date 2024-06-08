@@ -17,17 +17,13 @@
 
 .menu {
   color: var(--cor-branco);
+  cursor: pointer;
 }
 
 .menu li:hover {
   color: var(--cor-azul-claro);
 }
 
-.menu a {
-  /* display: block;
-  padding: .5rem; */
-}
-
 .btn-contato button {
   padding: 10px 40px;
   font-size: 18px;
@@ -45,52 +41,3 @@
   box-shadow: 0px 0px 8px var(--cor-azul-claro);
   transform: scale(1.1);
 }
-
-/* header {
-  padding: 40px 4%;
-}
-
-.logo a img {
-  width: 7rem;
-}
-
-header > .interface {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header .menu-desktop li {
-  color: var(--cor-branco);
-  display: inline-block;
-  transition: 0.2s;
-}
-
-header .menu-desktop li:hover {
-  color: var(--cor-azul-claro);
-  transform: scale(1.1);
-}
-
-li {
-  display: inline-block;
-  padding: 0 40px;
-  font-size: 20px;
-}
-
-.btn-contato button {
-  padding: 10px 40px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: var(--cor-azul-claro);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-
-  display: inline-block;
-  transition: 0.2s;
-}
-
-.btn-contato button:hover {
-  box-shadow: 0px 0px 8px var(--cor-azul-claro);
-  transform: scale(1.1);
-} */
